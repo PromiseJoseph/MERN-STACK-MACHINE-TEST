@@ -34,9 +34,6 @@ const FileUploadSection = ({ section, uploadSection, setUploadSection, handleFil
             onChange={(e) => handleFileSelection(e, section)}
           />
         </div>
-        <button type="button" className="ml-2 p-2 bg-gray-200 rounded-md">
-          <i className="fas fa-trash"></i>
-        </button>
       </div>
     </div>
     )
